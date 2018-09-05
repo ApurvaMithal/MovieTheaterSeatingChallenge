@@ -1,11 +1,14 @@
 Apurva Mithal
+
 Movie Theatre Seating Challenge
 
 READ ME
+
 	- Language used: Java
 	- JDK Version: 1.8.0_144
 
 ASSUMPTIONS
+
 	- For each request, the number of seats requested is always less than or equal to the capacity of one row of the theater (20).
 	- Total number of requested seats from all the requests is always less than or equal to the capacity of the movie theater (10*20).
 	- The top most priority for the audience is that each member of the group sits together i.e. on the same row. In case when this is not 	  	possible, only then they agree to split in different rows.
@@ -18,6 +21,7 @@ ASSUMPTIONS
 
 
 Note:
+
 	- While running the file you will need to provide two command line arguments:
 		o Absolute path of the input file where the input file is placed.
 		o Absolute path of the output file where you want the result to be generated.
@@ -27,6 +31,7 @@ Note:
 		o MovieTheater.java – This contains the main logic behind seat reservation. 
 
 HOW TO RUN
+
 	- Open the command prompt. 
 	- Change the directory to the path where java files are present.
 	- Compile the java file Main.java by the following command -
