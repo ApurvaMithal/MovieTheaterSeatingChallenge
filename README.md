@@ -11,7 +11,7 @@ ASSUMPTIONS
 
 	- For each request, the number of seats requested is always less than or equal to the capacity of one row of the theater (20).
 	- Total number of requested seats from all the requests is always less than or equal to the capacity of the movie theater (10*20).
-	- The top most priority for the audience is that each member of the group sits together i.e. on the same row. In case when this is not 	  	possible, only then they agree to split in different rows.
+	- The top most priority for the audience is that each member of the group sits together i.e. on the same row. In case when this is not possible, only then they agree to split in different rows.
 	- Audience prefer seats in the front row more than the seats in the back row i.e. the order of preference of rows is:
 		o Row# 1 > Row# 2 > Row# 3 > Row# 4> Row# 5 > Row# 6 > Row# 7 > Row# 8 > Row# 9 > Row# 10
 	- The requests are processed in the same order as which they have arrived i.e. on first come first serve basis.
